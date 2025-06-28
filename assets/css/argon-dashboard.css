@@ -1,26 +1,31 @@
 @charset "UTF-8";
+
 body {
   /*background: linear-gradient(to bottom, #b3f0ff, #e0ffe0);*/
   font-family: 'Noto Sans KR', sans-serif;
 }
+
 .farm-container {
   background-color: #38cf3c;
   border-radius: 20px;
   padding: 30px;
   margin: 30px auto;
   max-width: 900px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   color: white;
   text-align: center;
 }
+
 .farm-title {
   font-size: 28px;
   font-weight: bold;
 }
+
 .subtitle {
   font-size: 16px;
   margin-bottom: 30px;
 }
+
 .section-box {
   background-color: #f3ffe6;
   border: 2px solid #9c6b3b;
@@ -28,6 +33,7 @@ body {
   padding: 20px;
   height: 280px;
 }
+
 .crop-card {
   background-color: #fff9ec;
   border-radius: 12px;
@@ -37,14 +43,17 @@ body {
   color: #888;
   font-size: 14px;
 }
+
 .emoji {
   font-size: 26px;
 }
+
 .crop-name {
   font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
 }
+
 .count-text {
   margin: 15px 0;
   font-size: 16px;
@@ -2911,6 +2920,23 @@ progress {
   border-radius: 0.5rem;
   transition: box-shadow 0.15s ease, border-color 0.15s ease;
 }
+
+.form-control-20 {
+  display: block;
+  width: 20%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  appearance: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
 .form-control-50 {
   display: block;
   width: 50%;
@@ -2926,6 +2952,7 @@ progress {
   border-radius: 0.5rem;
   transition: box-shadow 0.15s ease, border-color 0.15s ease;
 }
+
 .form-control-80 {
   display: block;
   width: 80%;
@@ -21861,7 +21888,7 @@ fieldset:disabled .btn {
 .btn-secondary:hover,
 .btn.bg-gradient-secondary:hover {
   background-color: #8392ab;
-  border-color: #8392ab; 
+  border-color: #8392ab;
 }
 
 .btn-secondary .btn.bg-outline-secondary,
@@ -23100,15 +23127,19 @@ label,
 .bg-gradient-secondary {
   background-image: linear-gradient(310deg, #627594 0%, #a8b8d8 100%);
 }
+
 .bg-gradient-secondary-red {
   background-image: linear-gradient(310deg, #ff0000 0%, #ffa07a 100%);
 }
+
 .bg-gradient-secondary-green {
   background-image: linear-gradient(310deg, #228b22 0%, #32cd32 100%);
 }
+
 .bg-gradient-secondary-pink {
   background-image: linear-gradient(310deg, #ff69b4 0%, #ffc0cb 100%);
 }
+
 .bg-gradient-secondary-yellow {
   background-image: linear-gradient(310deg, #ffd700 0%, #ffff00 100%);
 }
